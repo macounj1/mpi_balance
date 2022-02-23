@@ -1,6 +1,6 @@
 #!/bin/bash
 #PBS -N balance
-#PBS -l select=2:ncpus=128:mpiprocs=16,walltime=00:00:15
+#PBS -l select=2:ncpus=128:mpiprocs=8,walltime=00:00:15
 #PBS -q qexp
 #PBS -e balance.e
 #PBS -o balance.o
